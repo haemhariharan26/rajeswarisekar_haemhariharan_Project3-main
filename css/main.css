@@ -1,0 +1,41 @@
+.hidden {
+    display: none;
+}
+.container {
+    justify-content: space-between;
+}
+.box1 {
+    width: 250px;
+    height: 250px;
+    background-color: blue;
+}
+
+.box2 {
+    width: 250px;
+    height: 250px;
+    background-color: purple;
+}
+
+.box3 {
+    width: 250px;
+    height: 250px;
+    background-color: grey;
+}
+
+.box4 {
+    width: 250px;
+    height: 250px;
+    background-color: brown;
+}
+
+@media only screen and (min-device-width: 641px) and (max-device-width: 1200px) {
+    .container {
+        display: flex;
+        float: left;
+    }
+    
+}
+
+
+
+

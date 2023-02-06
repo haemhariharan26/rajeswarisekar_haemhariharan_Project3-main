@@ -1,0 +1,163 @@
+
+.hidden {
+    display: none;
+}
+
+.container {
+    width: 420PX;
+    margin: 0 auto;
+    display: block;
+}
+
+.box-color {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.box-color2 {
+    background-color: #AEAEAE;
+    color: white;
+    text-align: center;
+}
+
+.grid {
+    display: grid;
+    padding-left: 15px;
+    padding-right: 15px;
+    grid-template-columns: repeat(4, 50px);
+    grid-column-gap: 30px;
+    grid-row-gap: 20px;
+}
+
+#header-logo {
+    margin-top: 10px;
+    height: 97px;
+    width: 270px;
+    grid-column: 1/4;
+}
+
+#header-nav{
+    grid-column: 4/4;
+    margin-left: 1px;
+    width: 50px;
+    height: 60px;
+    margin-top: 16px;
+}
+
+#header-nav img {
+    color: black;
+}
+
+
+#main-header {
+    margin-top: 40px;
+}
+
+#header-logo {
+    height: 60px;
+    width: 174px;
+    grid-column: 1/2;
+}
+
+#image-placeholder {
+    /* width: 385px; */
+    height: 248px;
+    grid-column: 1/-1;
+    margin-top: 30px;
+}
+
+
+#offer-con h2{
+    font-size: 20px;
+    grid-column: 1/-1;
+    text-align: center;
+    margin-top: 35px;
+    margin-bottom: 0;
+}
+
+
+.feature1 {
+    display: block;
+    margin-top: 0;
+    /* width: 358px; */
+    height: 195px;
+    grid-column: 1/-1;
+}
+
+#offer-con2 h2{
+    font-size: 20px;
+    grid-column: 1/-1;
+    text-align: center;
+    margin-top: 35px;
+    margin-bottom: 0;
+}
+
+.feature-product1 {
+    /* width: 358px; */
+    height: 390px;
+    grid-column: 1/-1;
+    margin-top: 0px;
+}
+
+.feature-product2 {
+    /* width: 358px; */
+    height: 390px;
+    grid-column: 1/-1;
+    margin-top: 0px;
+}
+
+.feature-product3 {
+    /* width: 358px; */
+    height: 390px;
+    grid-column: 1/-1;
+    margin-top: 0px;
+}
+
+.testimonial {
+    /* width: 358px; */
+    margin-top: 0;
+     height: 129px;
+     grid-column: 1/-1;
+ }
+
+#client h2 {   
+    font-size: 20px;
+    grid-column: 1/-1;
+    text-align: center;
+    margin-top: 35px;
+    margin-bottom: 0;
+}
+
+.footer-con {
+    height: 58px;
+    grid-column: 1/-1;
+    /* width: 358px; */
+}
+
+.box1 {
+    width: 68px;
+    height: 26px;
+    margin-top: 18px;
+    grid-column: 1/-1;
+}
+
+/* .nav-bar {
+    display: inline;
+} */
+
+#image-placeholder2 {
+    height: 85px;
+    grid-column: 1/-1;
+    margin-top: 60px;
+}
+
+.nav-bar {
+    grid-column: 1/4;
+}
+
+.nav-bar ul li {
+    list-style: none;
+    margin: 10px 20px;
+    text-decoration: none;
+}
